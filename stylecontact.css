@@ -1,0 +1,37 @@
+body {
+    background-color: #35A7FF;
+}
+
+h1 {
+    size: 50px;
+    text-align: center;
+}
+
+button {
+    width: 12em;
+}
+
+button:hover span {
+    display: "Haha, No  "
+}
+
+button:hover:before {
+    content: "Haha, No  "
+}
+
+button:hover:after {
+    content: none;
+}
+
+.button {
+    background-color: #4CAF50;
+    /* Green */
+    border: 2px solid gray;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 45px 329px;
+}

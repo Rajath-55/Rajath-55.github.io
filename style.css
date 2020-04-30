@@ -2,10 +2,9 @@
     margin: 0px;
 }
 
-
-/* body {
-    background-color: #70abaf;
-} */
+body {
+    background-color: #FEFEE3;
+}
 
 header {
     background-color: #32292f
@@ -63,9 +62,45 @@ p {
 
 .div2 {
     background-color: #32292F;
-    height: 380px;
+    height: 340px;
 }
 
 nav a:hover {
     color: #99E1D9;
+}
+
+.div2 ul {
+    margin-left: 15px;
+    color: #F0F7F4;
+}
+
+.div2 ul li {
+    text-decoration: none;
+}
+
+.div3 h2 {
+    margin-left: 15px;
+}
+
+.div3 ul {
+    margin-left: 15px;
+}
+
+.div3 ul li {
+    text-decoration: none;
+}
+
+.div3 h3 {
+    margin-left: 45px;
+}
+
+.div3 ol li {
+    margin-top: 10px;
+    margin-left: 60px;
+}
+
+@media (max-width:800px) {
+    p {
+        size: 12px;
+    }
 }
