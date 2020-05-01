@@ -1,0 +1,43 @@
+body {
+    /* background-color: #101419; */
+    margin: 0;
+    background-color: Firebrick;
+}
+
+.div1 {
+    background-color: ;
+}
+
+.div1 h1 {
+    /* color: #E77E4E; */
+    font-size: 78px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin: 10px 78px;
+    position: relative;
+}
+
+nav a {
+    color: #F0F7F4;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+.div2 a {
+    text-decoration: none;
+    color: #CBE896;
+    border: 1px solid black;
+    background-color: grey;
+    border-radius: 7px;
+    padding: 6px;
+    margin-left: 20px;
+}

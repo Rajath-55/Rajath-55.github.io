@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <script src="miniproject.js"></script>
+    <script src="duke.js"></script>
+    <script src="green.js"></script>
+    <link rel="stylesheet" href="greenscreen.css">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Mini Project 1</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/Rajath-55">Projects</a>
+                    </li>
+                    <li>
+                        <a href="Contact.html">Contact</a>
+                    </li>
+                    <li>
+                        <a href="My_CV.pdf">CV</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <h1>Green screen filter:</h1>
+    <br> <canvas id="c1"></canvas></br>
+    <br><label id="f1input" for="finput">Foreground:
+        <input type="file" id="finput1" onchange="doChange()" multiple="false" accept="image/*">
+    </label>
+    <br> <canvas id="c2"></canvas></br>
+    <br><label id="f2input" for="finput">Background:
+        <input type="file" id="finput2" onchange="doChange1()" multiple="false" accept="image/*">
+
+    </label>
+    <div class="div1">
+        <br><canvas id="c3"></canvas></br>
+        <br><input type="button" id="butt" value="Merge!" onclick="doGreen()"> </div>
+
+</body>
+
+</html>

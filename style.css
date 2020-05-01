@@ -7,7 +7,7 @@ body {
 }
 
 header {
-    background-color: #32292f
+    background-color: #32292f;
 }
 
 .div1 {
@@ -19,6 +19,7 @@ header {
 .div1 h1 {
     text-align: center;
     margin-bottom: 20px;
+    font-size: 72px;
 }
 
 #hello {
@@ -103,4 +104,13 @@ nav a:hover {
     p {
         size: 12px;
     }
+}
+
+.div3 h3 {
+    margin-top: 15px;
+}
+
+.div3 a {
+    text-decoration: none;
+    color: Firebrick;
 }
