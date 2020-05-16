@@ -1,285 +1,194 @@
-* {
-    margin: 0px;
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@700&family=Muli:wght@500&family=Varela+Round&display=swap');
+body{
+    margin:0;
+    overflow-x: hidden;
+    color:#505962;
+    font-family:'Varela Round', sans-serif !important;
 }
+.navbar-dark{
+    text-transform:uppercase;
+    font-weight:700;
+    font-size:.9rem;
+    letter-spacing: 0.1rem;
+    background-color: rgba(0,0,0,0.6) !important;
 
-body {
-    background-color:  #32292F;
 }
-
-header {
-    background-color: #32292f;
-    background-image: url("bacc2.jpg");
+.navbar-brand{
+    height:2rem;
 }
-
-.div1 {
-    width: 100%;
-    height: 570px;
-    background-color:  #32292f;
-    background-image: url("bacc.jpg");
-    
+.navbar-nav li{
+    padding-right:0.7rem;
 }
-
-.div1 h1 {
-    text-align: center;
-    margin-bottom: 20px;
-    font-size: 72px;
+.navbar-dark .navbar-nav .nav-link{
+    color:white;
+    padding-top:0.8rem;
 }
-
-#hello {
-    text-align: center;
-    /* margin-top: 25px; */
+.nav-link.active, .nav-link:hover{
+    color:#1ebba3 !important;
 }
-.div1 h1{
-    text-align:center;
-    color:White;
-    padding-top:5%;
+#home{
+    background:url("img/hom2.jpg") !important;
+    color:white;
 }
-
-
-/* nav {
-    float: right;
+#about h2{
+    padding-bottom:30px !important;
+}
+#proj{
+    background-image: url("img/projects.jpg");
+}
+.pic{
+    background:url("img/facebook_profile_image.png")
+}
+#projects h1{
+    font-weight:700;
+}
+#gray{
+    background:#b4b4b4 !important;
+}
+#red{
+    background:#cf5a1b !important;
+}
+#green{
+    background:#5fb545 !important;
+}
+.social a{
+    font-size:4.5em;
+    padding:3rem;
+  }
+  .fa-facebook{
+    color:#3b5998;
+    color:#FFF;
+  }
+  .fa-github{
+    color:#000010;
+    color:#FFF;
+  }
+  .fa-twitter{
+    color:#00aced;
+    color:#FFF;
+  }
+  .fa-instagram{
+    color:#517fa4;
+    color:#FFF;
+  }
+  .fa-linkedin{
+      color:#517fa4;
+      color:#FFF;
+  }
+  .fa-facebook:hover , .fa-twitter:hover, .fa-github:hover, .fa-instagram:hover, .fa-linkedin:hover{
+  color:Firebrick;
+  }
+/* .hom1{
+    background:url("img/hom1.jpg") !important;
 } */
-
-nav ul {
-    margin: 0;
-    padding-bottom:0px;
-    
-    list-style: none;
-}
-
-nav li {
-    display: inline-block;
-    margin-left : 90px;
+  /*--- Extra Bootstrap Column Padding --*/
+[class*="col-"] {
+    padding: 1rem;
+  }
+  
+  /*--- Bootstrap Mobile Gutter Fix --*/
+  .row, .container-fluid {
+  margin-left: 0px!important;
+  margin-right: 0px!important;
+  }
+  
+  /*--- Fix for Fixed Navbar jumping on scroll --*/
+  .fixed-top  {
+   -webkit-backface-visibility: hidden;
+  }
+  
+  /*--- Fixed Landing Page Section --*/
+  .landing {
     position: relative;
-    padding-right:82px;
-    padding-top:20px;
-}
-
-nav a {
-    color: #F0F7F4;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-weight: 300;
-    font-size:24px;
-}
-
-.div1 h2 {
-    margin-left: 15px;
-    color: #F0F7F4;
-}
-
-p {
-    margin: 15px;
-    color: #F0F7F4;
-}
-
-.div3 {
-    background-color: #32292F;
-    height: 340px;
-    background-image: url("bacc3.jpg")
-    /* height: 90%; 
-    width:100%;
-    display:flex;
-    align-items: center;
-    justify-content: center; */
-}
-
-nav a:hover {
-    color: #99E1D9;
-}
-
-.div1 ul {
-    margin-left: 15px;
-    color: #F0F7F4;
-}
-
-.div1 ul li {
-    text-decoration: none;
-}
-
-.div3 h2 {
-    margin-left: 15px;
-    color:white;
-}
-
-.div3 ul {
-    margin-left: 15px;
-    
-}
-
-.div3 ul li {
-    text-decoration: none;
-    color:white;
-}
-
-.div3 h3 {
-    margin-left: 45px;
-    color:white;
-}
-
-.div3 ol li {
-    margin-top: 10px;
-    margin-left: 60px;
-}
-
-@media (max-width:800px) {
-    p {
-        size: 12px;
-
-    }
-}
-
-.div3 h3 {
-    margin-top: 15px;
-    color:white;
-}
-
-.div3 a {
-    text-decoration: none;
-    color: Firebrick;
-}
-.logo{
-    height: 100px;
-    width: auto;
-    float:left;
-    padding-bottom: 0px;
-    padding-top: 0px;
-    
-}
-.mainbg{
-    height: 500px;
     width: 100%;
-    padding: 0;
+    height: 100vh;
+    display: table;
+    z-index: -1;
+  }
+  .home-wrap {
+    clip: rect(0, auto, auto, 0);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .home-inner {
+    position: fixed;
+    display: table;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center center;
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+    will-change: transform;
+  }
+  
+  /*--- iOS Fixed Background Image --*/
+  .fixed-background {
+    position: relative;
+    width: 100%;
+  }
+  .fixed-wrap {
+    clip: rect(0, auto, auto, 0);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -999!important;
+  }
+  .fixed {
+    position: fixed;
+    display: block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center center;
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+    will-change: transform;
+  }
+  .lead{
+      font-size:1.8rem !important;
+  }
+  #contact{
+      background:url("img/computers.png")
+  }
+  #contact h1{
+      color:white;
+  }
+  .lala{
+      color:#d41135
+  }
+  footer{
+    background-color: #3f3f3f;
+    color:#d5d5d5;
+    padding-top:2rem;
+  
+  }
+  hr.light{
+    border-top:1px solid #d5d5d5;
+    width:75%;
+    padding:
+  }
+  #web:hover{
+      font-family:'Alegreya' sans-serif !important;
+  }
+  #dark{
+      color:#393d38 !important;
+  }
+  @media (max-width 768px){
+      h1 h2 h3 {
+          font-size:0.6rem !important;
+      }
+      .display-5 .display-4 .display-3 .display-2 .display-1{
+          font-size:0.7rem !important;
+      }
 
-}  
-.centered {
-    position: absolute;
-    top: 38%;
-    left: 60%;
-    transform: translate(-80%, -50%);
-    color:#FFFFEA;
-    font-family: 'Montserrat', sans-serif;
-  
-}  
-.ol{
-    color:white;
-}
-.topnav {
-    background-color: #333;
-    background-image:url("119.jpg") !important;
-    overflow: hidden;
-  }
-  
-  /* Style the links inside the navigation bar */
-  .topnav a {
-    float: left;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    margin-right:40px;
-    margin-top:20px;
-    text-decoration: none;
-    font-size: 20px;
-  }
-  
-  /* Add an active class to highlight the current page */
-  .active {
-    background-color: #4CAF50;
-    color: firebrick
-  }
-  
-  /* Hide the link that should open and close the topnav on small screens */
-  .topnav .icon {
-    display: none;
-  }
-  
-  /* Dropdown container - needed to position the dropdown content */
-  .dropdown {
-    float: left;
-    overflow: hidden;
-  }
-  
-  /* Style the dropdown button to fit inside the topnav */
-  .dropdown .dropbtn {
-    font-size: 20px;
-    border: none;
-    outline: none;
-    color: white;
-    padding: 14px 16px;
-    margin-top:20px !important;
-    margin-right:40px !important;
-    background-color: inherit;
-    /* font-family: inherit; */
-    margin: 0;
-  }
-  
-  /* Style the dropdown content (hidden by default) */
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #4CAF50;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-  }
-  
-  /* Style the links inside the dropdown */
-  .dropdown-content a {
-    float: none;
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-  }
-  
-  /* Add a dark background on topnav links and the dropdown button on hover */
-  .topnav a:hover, .dropdown:hover .dropbtn {
-    background-color: #555;
-    color: white;
-  }
-  
-  /* Add a grey background to dropdown links on hover */
-  .dropdown-content a:hover {
-    background-color: #ddd;
-    color: black;
-  }
-  
-  /* Show the dropdown menu when the user moves the mouse over the dropdown button */
-  .dropdown:hover .dropdown-content {
-    display: block;
-  }
-  
-  /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
-  @media screen and (max-width: 600px) {
-    .topnav a:not(:first-child), .dropdown .dropbtn {
-      display: none;
-    }
-    .topnav a.icon {
-      float: right;
-      display: block;
-    }
-  }
-  
-  /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
-  @media screen and (max-width: 600px) {
-    .topnav.responsive {position: relative;}
-    .topnav.responsive a.icon {
-      position: absolute;
-      right: 0;
-      top: 0;
-    }
-    .topnav.responsive a {
-      float: none;
-      display: block;
-      text-align: left;
-    }
-    .topnav.responsive .dropdown {float: none;}
-    .topnav.responsive .dropdown-content {position: relative;}
-    .topnav.responsive .dropdown .dropbtn {
-      display: block;
-      width: 100%;
-      text-align: left;
-    }
   }
