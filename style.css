@@ -103,6 +103,11 @@ body{
     font-size:4em;
     color:Blue;
   }
+  .fa-js{
+    margin:1rem;
+    font-size:4em;
+    color:#dae019
+  }
   .fa-facebook:hover , .fa-twitter:hover, .fa-github:hover, .fa-instagram:hover, .fa-linkedin:hover, fa-google:hover{
   color:Firebrick;
   }
