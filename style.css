@@ -117,6 +117,10 @@ body{
   #pad{
     padding-bottom:1rem;
   }
+  #projpad{
+    padding-top: 4.8rem;
+    /* padding-bottom: 2.8rem; */
+  }
 /* .hom1{
     background:url("img/hom1.jpg") !important;
 } */
