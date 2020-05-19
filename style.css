@@ -111,6 +111,9 @@ body{
   .fa-facebook:hover , .fa-twitter:hover, .fa-github:hover, .fa-instagram:hover, .fa-linkedin:hover, fa-google:hover{
   color:Firebrick;
   }
+  #more{
+    background-color:skyblue;
+  }
 /* .hom1{
     background:url("img/hom1.jpg") !important;
 } */
