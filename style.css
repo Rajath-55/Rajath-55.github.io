@@ -114,6 +114,9 @@ body{
   #more{
     background-color:skyblue;
   }
+  #pad{
+    padding-bottom:1rem;
+  }
 /* .hom1{
     background:url("img/hom1.jpg") !important;
 } */
