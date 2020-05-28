@@ -7,6 +7,7 @@ body{
     overflow-x: hidden;
     color:#505962;
     font-family:'Varela Round', sans-serif !important;
+    background-attachment: fixed;
     
 }
 .navbar-dark{
