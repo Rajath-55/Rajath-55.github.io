@@ -14,8 +14,15 @@ body{
     background-size:auto;
     
 }
+.full{
+  min-height: 100vh !important;
+}
+.margin{
+  margin:2rem;
+  
+}
 .border{
-  border-radius: 5%;
+  border-radius: 50%;
   border:2px solid #b4b4b4;
 }
 #landing{
@@ -24,6 +31,20 @@ body{
 #main_type{
   color:red;
   /* font-family: 'Alegreya'; */
+}
+.grad{
+  z-index : 1;
+  background : #b4b4b4 !important;
+}
+.center{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.blur{
+  background : rgba(0,0,0,0.92)!important;
+  z-index : -1;
 }
 nav{
     text-transform:uppercase;
@@ -252,10 +273,10 @@ nav{
   }
   @media (max-width 768px){
       h1 h2 h3 {
-          font-size:0.6rem !important;
+          font-size:0.4rem !important;
       }
       .display-5 .display-4 .display-3 .display-2 .display-1{
-          font-size:0.7rem !important;
+          font-size:0.5rem !important;
       }
 
   }
