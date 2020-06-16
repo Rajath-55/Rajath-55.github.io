@@ -4,6 +4,9 @@
 html{
   scroll-behavior: smooth;
 }
+/* *{
+  overflow-x:hidden;
+} */
 body{
     margin:0;
     overflow-x: hidden;
@@ -12,6 +15,7 @@ body{
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size:auto;
+    background:black;
     
 }
 .full{
@@ -20,6 +24,9 @@ body{
 .margin{
   margin:2rem;
   
+}
+.medium{
+  font-size: 1.9rem;
 }
 .border{
   border-radius: 50%;
@@ -34,7 +41,7 @@ body{
 }
 .grad{
   z-index : 1;
-  background : #b4b4b4 !important;
+  background : #3f3f3f !important;
 }
 .center{
   display:flex;

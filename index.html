@@ -5,16 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
-<!-- jQuery library -->
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
 
 </head>
 <body data-spy="scroll" data-target="#navbarResponsive">
 
 
 		<nav class="navbar navbar-expand-md navbar-dark  sticky-top">
-		<a class="navbar-brand" href="#home"><=></a>
+		<a class="navbar-brand" href="#home" ><=></a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
 		<span class="navbar-toggler-icon"></span>
 	</button>
@@ -39,14 +41,15 @@
 <div id="home">
 <a href="#Landing"></a>
 <div class="container-fluid" id="landing">
-	<div class="container full text-center center">
+	<div class="container full text-center center" data-aos="fade-left">
      
-            
-			<h4 class="display-4">Hello There.</h4>
+            <div style="overflow:hidden">
+			<h4 class="display-4" style = "overflow:hidden"> Hello There.</h4>
 			<!-- <h1 class="display-5">Welcome.</h1> -->
 			<!-- <h2 class="display-3">This is my Portfolio.</h2> -->
-			<h5 class="display-4">I am Rajath.</h5>
-			<h5 class="display-4"> I'm a <span id="main_type"></span> <span id="main_cursor"></span></h5>
+			<h5 class="display-4"style = "overflow:hidden">I am Rajath.</h5>
+			<h5 class="medium"style = "overflow:hidden"> I'm a <span id="main_type"style = "overflow:hidden"></span> <span id="main_cursor"></span></h5>
+		</div>
 		
 		
 </div>
@@ -54,22 +57,21 @@
 </div>
 </div>
 
-<div id="about" class="offset full">
+<div id="about" class="offset full" data-aos="fade-right">
 	<div class="jumbotron hom1 blur">
 		<div class ="row text-center">
 			<h2 class="display-5" style = " color : white">About Me</h2>
 		</div>
 		
 			<div class="jumbotron grad">
-				<!-- <div class="row text-center">
-					<img src="img/profile.jpeg" class="img-fluid">
-				</div> -->
-				<div class="col-sm-12 text-center" >	
+					<div class="image center">
 					<img src="img/profile.jpeg" class="img-fluid border margin">
 					<br>
 					<p></p>
 					<p><a href="#" target= "_blank" class="btn btn-success">Resume</a></p>
 				</div>
+				<!-- </div> -->
+				<div style= "color:white">
 				<p >I am a student, currently pursuing my undergraduate degree in Computer Science in</p>
 				<p >The Birla Institute of Technology and Science, KK Birla Goa Campus. </p>
 				<p >I am currently in my freshman year.</p>
@@ -80,7 +82,7 @@
 				<p>
 				   I am passionate about solving problems using Machine Learning.
 				</p>
-				
+			</div>
 					
 				<div  class="jumbotron pic">
 					<div class="jumbotron">
@@ -112,14 +114,14 @@
 
 </div>
 <hr id="dark">
-<div id="projects" class="offset full">
-	<div class="container-fluid padding">
+<div id="projects" class="offset full text-center" data-aos="fade-up">
+	<div class="container-fluid padding text-center" data-aos="fade-up">
 		<div class ="row">
-			<h1 class="display-3" id="projpad">My Projects.</h1>
+			<h5 class="medium" id="projpad">My Projects.</h5>
 			
 		</div>
 		<div class="row">
-			<h2 class="display-5">All of my projects are hosted on my github profile.</h2>
+			<h5>All of my projects are hosted on my github profile.</h5>
 			
 		</div>
 		<div class="row">
@@ -127,7 +129,7 @@
 		</div>
 		<div class="container-fluid padding" id="proj">
 		<div class="row">
-			<div class="col-md-4">
+			<div class="col-md-4" data-aos="fade-left">
 				<div class="card" id="gray" style="width: 18rem;">
 					<img class="card-img-top" src="img/gray.jpg" alt="Card image cap">
 					<div class="card-body">
@@ -139,7 +141,7 @@
 				  </div>
 
 			</div>
-			<div class="col-md-4">
+			<div class="col-md-4" data-aos="fade-left">
 				<div class="card" id="green" style="width: 18rem;">
 					<img class="card-img-top" src="img/grnsrcn.jpg"  alt="Card image cap">
 					<div class="card-body">
@@ -151,7 +153,7 @@
 				  </div>
 
 			</div>
-			<div class="col-md-4 ">
+			<div class="col-md-4 " data-aos="fade-left">
 				<div class="card"  id="red" style="width: 18rem;">
 					<img class="card-img-top" src="img/red.jpg" alt="Card image cap">
 					<div class="card-body">
@@ -169,7 +171,7 @@
 
 		</div>
 		<div class="row">
-			<div class="col-md-4">
+			<div class="col-md-4" data-aos="fade-left">
 				<div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
 					<div class="card-header">P5.js</div>
 					<div class="card-body">
@@ -180,7 +182,7 @@
 				  </div>
 			</div>
 			
-			<div class="col-md-4 ">
+			<div class="col-md-4 " data-aos="fade-left">
 				<div class="card"  id="more" style="width: 18rem;">
 					<img class="card-img-top" src="img/hah.png" alt="Card image cap">
 					<div class="card-body">
@@ -192,7 +194,7 @@
 
 
 			</div>
-			<div class="col-md-4">
+			<div class="col-md-4" data-aos="fade-left">
 				<div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
 					<div class="card-header">NoteiFy</div>
 					<div class="card-body">
@@ -203,7 +205,7 @@
 					</div>
 				  </div>
 			</div>
-			<div class="col-md-4">
+			<div class="col-md-4" data-aos="fade-left">
 				<div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
 					<div class="card-header">Snake Game</div>
 					<div class="card-body">
@@ -213,7 +215,7 @@
 					</div>
 				  </div>
 			</div>
-			<div class="col-md-4">
+			<div class="col-md-4" data-aos="fade-left">
 				<div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
 					<div class="card-header">More to come!</div>
 					<div class="card-body">
@@ -229,7 +231,7 @@
 	</div>
 </div>
 	</div>
-	
+<div data-aos="fade-up">	
 	<div class = "container-fluid padding">
 		<div class="row text-center padding">
 			<div class="col-12">
@@ -341,9 +343,10 @@
 
 
 
+	
 
 
-
+	
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
@@ -354,6 +357,6 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 <script src="index.js"></script>
 <!-- <script src="https://use.fontawesome.com/releases/v5.5.0/js/all.js"></script> -->
-
+</div>
 </body>
 </html>
