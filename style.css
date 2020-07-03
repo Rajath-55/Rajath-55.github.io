@@ -12,18 +12,23 @@ body{
     overflow-x: hidden;
     color:#505962;
     font-family:'Varela Round', sans-serif !important;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size:auto;
     background:black;
     
 }
 .full{
   min-height: 100vh !important;
 }
+.black{
+  color:black;
+}
 .margin{
   margin:2rem;
   
+}
+.black{
+  background:black !important;
+  color:white;
+  text-shadow: aliceblue;
 }
 .medium{
   font-size: 1.9rem;
@@ -50,7 +55,7 @@ body{
   align-items: center;
 }
 .blur{
-  background : rgba(0,0,0,0.92)!important;
+  background : rgba(0,0,0,0.99)!important;
   z-index : -1;
 }
 nav{
@@ -138,13 +143,16 @@ nav{
   .fa-css3{
     color:#2163af;
   }
-  .fa-code, .fa-bold, .fa-css3, .fa-cuttlefish{
+  .fa-code, .fa-bold, .fa-css3, .fa-cuttlefish, .fa-node, .fa-react{
     margin:1rem;
     font-size:4em;
   
   }
   .fa-cuttlefish{
     color:gray;
+  }
+  .fa-react{
+    color:#2165af
   }
   .fa-python{
     margin:1rem;
